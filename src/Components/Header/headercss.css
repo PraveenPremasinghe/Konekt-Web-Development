@@ -267,7 +267,7 @@ video {
   text-align: center;
   margin-left: auto;
   padding: 0.65rem 1.5rem;
-  border-radius: 3rem;
+  border-radius: 0.25rem;;
   text-transform: capitalize;
   color: black;
   background-color: white;
