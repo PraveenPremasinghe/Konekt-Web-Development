@@ -19,7 +19,7 @@ html::-webkit-scrollbar {
   box-sizing: inherit;
   scroll-behavior: smooth;
   height: -webkit-fill-available;
-  display: none;  /* Safari and Chrome */
+  display: none;  
 
 }
 
@@ -50,6 +50,7 @@ button {
   background: none;
   box-shadow: none;
   text-decoration: none;
+  
 }
 
 img,
@@ -206,6 +207,10 @@ video {
   text-decoration: none !important;
 
 }
+.brand:hover {
+  color:rgba(2, 2, 2, 0.47);
+  text-decoration: none !important;
+}
 
 .menu {
   position: fixed;
@@ -245,6 +250,10 @@ video {
   transition: all 0.3s ease;
   text-decoration: none !important;
 
+}
+
+.menu-link:hover{
+  color:rgba(2, 2, 2, 0.47);
 }
 
 .menu-block {
