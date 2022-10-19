@@ -41,7 +41,9 @@ function Headercom() {
 
 
       <header className={`header ${isScrolled && "on-scroll "}`} id="header">
-        <nav className="navbar container">
+      <div className="main-padding">
+
+        <nav className="navbar">
           <a href="#" className="brand">
             Konekt
           </a> 
@@ -83,6 +85,7 @@ function Headercom() {
             Contact Us
           </a>
         </nav>
+        </div>
       </header>
       {/* <!-- Main Section --> */}
       <main className="main">

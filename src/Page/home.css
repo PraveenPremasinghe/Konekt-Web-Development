@@ -18,6 +18,15 @@
   margin-bottom: 5px;
 }
 
+.hrcolor2 {
+  background-color: rgba(2, 2, 2, 0.689);
+  height: 0.5px;
+  border: 0;
+  opacity: .25;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .ourproduct {
   text-align: center;
   padding: 30px 10px 60px 10px;

@@ -121,6 +121,9 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="main-padding">
+          <hr className="hrcolor2" />
+        </div>
 
       <Footer></Footer>
     </div>

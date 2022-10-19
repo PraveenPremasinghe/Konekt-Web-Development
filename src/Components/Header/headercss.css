@@ -14,12 +14,16 @@
   text-rendering: optimizeLegibility;
 }
 
-html {
+html::-webkit-scrollbar {
   font-size: 100%;
   box-sizing: inherit;
   scroll-behavior: smooth;
   height: -webkit-fill-available;
+  display: none;  /* Safari and Chrome */
+
 }
+
+
 
 body {
   font-family: "Rubik", sans-serif;
